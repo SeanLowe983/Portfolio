@@ -1,0 +1,72 @@
+/* adding a blue header, center aligning the header */
+
+header {
+    background: #4aade7;
+    color: #e8ebdc;
+    text-align: center;
+    padding: 10px;
+}
+/* making all h1's slighter bigger by making px 90, also choosing the h1 font family */
+h1 {
+    font-size: 90px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* making all h3's smaller than the h1's, and giving them the same font family as h1*/
+h3 {
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* adding an image, and having the image display as a circle*/
+.image {
+    border-radius: 50%;
+    height: 500px;
+    width: 30%;
+
+}
+/* making the main part of the webpage a different color than the header, aligning it to center, and giving it more padding*/
+main {
+    background-color: #95d0f1;
+    text-align: center;
+    padding: 50px;
+}
+/*making all p's have smaller a font size but the same font family as the header*/
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*making a bulleted list and centering it by setting display and margin to 0. Also, making the font family the same as the header and main*/
+ul {
+    display: table;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*making all h2's a bit bigger then p's and setting the font color to be the same as the header*/
+h2 {
+    font-size: 40px;
+    color: #e8ebdc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*making the footer background color the same as the header, aligning the text to center but making the font size smaller than the header*/
+footer {
+    background-color: #4aade7;
+    text-align: center;
+    padding: 40px;
+}
+/*making the number list centered*/
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+/*giving the anchor tags a smaller font size but the same font family*/
+a{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*choosing the color of action for the anchor tags */
+a:link { color: red;}
+a:visited { color: green; }
+a:hover { color: #e8ebdc; }
+a:active { color: pink; }
